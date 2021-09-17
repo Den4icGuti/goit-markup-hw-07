@@ -1,0 +1,38 @@
+.address{
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+
+    color: var(--white);
+
+   
+  
+}
+
+
+
+.map-address{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+
+    color: var(--white);
+
+  flex-shrink: 0;
+   
+}
+
+
+.inner-address{
+    flex-shrink: 0;
+}

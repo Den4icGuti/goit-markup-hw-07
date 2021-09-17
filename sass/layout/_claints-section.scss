@@ -1,0 +1,19 @@
+.clients{
+    display: flex;
+   
+}
+
+
+
+.item-clients{
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+   
+    &:last-child{
+        margin-right: 0px;
+    }
+    
+   
+}
+

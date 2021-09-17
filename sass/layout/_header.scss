@@ -1,0 +1,43 @@
+.header{
+    border-bottom:  1px solid #ECECEC ;
+ }
+ 
+
+  
+ .site-nav{
+     display: flex;
+    
+ }
+
+ .main-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.contacts-header{
+    display: flex;
+    align-items: center;
+    margin-left:  auto;
+}
+
+.tel-header{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.item{
+    margin-right: 50px;
+
+     /* очищает крайнюю геометрию */
+  
+   &:last-child{
+    margin-right: 0;
+}
+}
+  
+  
+
+

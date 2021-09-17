@@ -1,1 +1,47 @@
 @import'./utils/variables';
+@import'./utils/hidden';
+@import'./base/reset';
+
+@import'./layout/header';
+@import './layout/banner';
+@import'./layout/features';
+@import'./layout/technology-section';
+@import'./layout/developer-section';
+@import'./layout/claints-section';
+@import'./layout/footer-section';
+
+@import'./components/header-studio';
+@import'./components/header-text-studio';
+@import'./components/header-text-portfolio';
+@import'./components/header-contact-text';
+@import'./components/right-nav-header';
+@import'./components/btn-banner';
+@import './components/input-modal-form';
+@import'./components/checkbox-modal';
+@import'./components/btn-close-modal';
+@import'./components/socials-developers';
+@import'./components/claints-icon';
+@import'./components/footer-studio';
+@import'./components/mail-footer';
+@import'./components/tel-footer';
+@import'./components/footer-social';
+
+@import'./text-content/banner-text';
+@import'./text-content/modal-text';
+@import'./text-content/form-pre-text-modal';
+@import'./text-content/fetures-title-text';
+@import './text-content/discription-features-text';
+@import'./text-content/our-team-title';
+@import'./text-content/name-developer';
+@import'./text-content/position';
+@import'./text-content/footer-link';
+@import'./text-content/title-socials-footer';
+@import'./text-content/link-condition-modal';
+@import'./text-content/title-mail-footer';
+
+@import'./modal/modal-win';
+@import'./modal/icons-modal-form-pos';
+
+
+
+
