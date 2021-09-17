@@ -1,3 +1,15 @@
+/* :root{
+    --black: #212121;
+    --white:#FFFFFF;
+    --grey: #757575;
+    --blue:#2196F3;
+    --black-grey: #2F303A;
+
+    --presentation-set: 30px;
+} */
+
+
+
 body{
 
     font-family:  'Roboto',sans-serif;
@@ -14,15 +26,6 @@ ul{
    
 }
 
-:root{
-    --black: #212121;
-    --white:#FFFFFF;
-    --grey: #757575;
-    --blue:#2196F3;
-    --black-grey: #2F303A;
-
-    --presentation-set: 30px;
-}
 
 input, textarea {
     outline: none;
