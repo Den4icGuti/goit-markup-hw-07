@@ -1,17 +1,5 @@
-.text-studio{
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-   
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--blue);
-  
-    text-decoration: none;
+.site-nav__text-studio{
+   @include  nav-menu-text(block,32px,32px,normal,500,14px,1.14,0.02em,var(--blue),none);
     position: relative;
 
     &::after

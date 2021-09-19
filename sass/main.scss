@@ -1,5 +1,6 @@
 @import'./utils/variables';
 @import'./utils/hidden';
+@import'./utils/mixsins';
 @import'./base/reset';
 
 @import'./layout/header';
@@ -7,10 +8,10 @@
 @import'./layout/features';
 @import'./layout/technology-section';
 @import'./layout/developer-section';
-@import'./layout/claints-section';
+@import'./layout/clients-section';
 @import'./layout/footer-section';
 
-@import'./components/header-studio';
+@import'./components/header-logo';
 @import'./components/header-text-studio';
 @import'./components/header-text-portfolio';
 @import'./components/header-contact-text';

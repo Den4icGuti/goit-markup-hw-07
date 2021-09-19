@@ -14,7 +14,18 @@
  }
 
 
+ .tel-header{
+    display: flex;
+    align-items: center;
+  }
 
+
+  .item-right{
+    margin-left: 50px;
+    &:first-child{
+      margin-left: 0px;
+    }
+  }
  
 
 

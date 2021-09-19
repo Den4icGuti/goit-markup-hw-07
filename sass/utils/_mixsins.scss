@@ -1,0 +1,31 @@
+@mixin header-logo($db,$pt,$pb,$mr,$fs,$fw,$fz,$lh,$color,$td) {
+  
+    display: $db;
+    padding-top: $pt;
+    padding-bottom: $pb;
+
+    margin-right: $mr;
+    
+    font-style: $fs;
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: $color;
+    text-decoration: $td;
+}
+
+
+@mixin nav-menu-text($dd,$pt,$pb,$fs,$fw,$fz,$lh,$ls,$color,$td) {
+    display: $dd;
+    padding-top: $pt;
+    padding-bottom: $pb;
+    font-style: $fs;
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    letter-spacing: $ls;
+    color: $color;
+    text-decoration: $td;
+    
+}
+

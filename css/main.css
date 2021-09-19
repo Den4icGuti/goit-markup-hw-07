@@ -85,17 +85,12 @@ img {
   margin-left: auto;
 }
 
-.tel-header {
-  display: flex;
-  align-items: center;
-}
-
-.item {
+.site-nav__item {
   margin-right: 50px;
   /* очищает крайнюю геометрию */
 }
 
-.item:last-child {
+.site-nav__item:last-child {
   margin-right: 0;
 }
 
@@ -289,25 +284,25 @@ img {
   right: 28px;
 }
 
-.web-studio {
+.main-nav__web-studio {
   display: block;
   padding-top: 25px;
   padding-bottom: 24px;
   margin-right: 93px;
-  font-family: 'Raleway',sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   color: var(--black);
   text-decoration: none;
+  font-family: 'Raleway',sans-serif;
 }
 
-.web {
+.main-nav__web {
   color: var(--blue);
 }
 
-.text-studio {
+.site-nav__text-studio {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -321,7 +316,7 @@ img {
   position: relative;
 }
 
-.text-studio::after {
+.site-nav__text-studio::after {
   content: '';
   position: absolute;
   display: block;
@@ -332,7 +327,7 @@ img {
   background-color: var(--blue);
 }
 
-.text-portfolio {
+.site-nav__portfolio {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -346,11 +341,11 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-portfolio:hover, .text-portfolio:focus {
+.site-nav__portfolio:hover, .site-nav__portfolio:focus {
   color: var(--blue);
 }
 
-.contacts {
+.site-nav__contacts {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -364,7 +359,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts:hover, .contacts:focus {
+.site-nav__contacts:hover, .site-nav__contacts:focus {
   color: var(--blue);
 }
 
@@ -377,6 +372,19 @@ img {
 .mail-header {
   display: flex;
   align-items: center;
+}
+
+.tel-header {
+  display: flex;
+  align-items: center;
+}
+
+.item-right {
+  margin-left: 50px;
+}
+
+.item-right:first-child {
+  margin-left: 0px;
 }
 
 .mail-header {
