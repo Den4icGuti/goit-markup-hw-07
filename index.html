@@ -34,22 +34,21 @@
                 </nav>
                 
                        <ul class="contacts-header">
-                       <li class="item-right">
+                       <li class="contacts-header__item">
                              
-                                <a class="mail-header" href="mailto:info@devstudio">
-                                    
-                                    <svg class="icon-right" width="16" height="12">
+                                <a class="contacts-header__mail-header mail-header_color_grey" href="mailto:info@devstudio">
+                                    <svg class="contacts-header__icon-right" width="16" height="12">
                                         <use  href="./img/spraits.svg#icon-mail"></use>
                                      </svg>
-                                    
                                     info@devstudio.com</a>
-                            </li>
-                            <li class="item-right"><a class="tel-header" href="tel:+380961111111">
-                                <svg class="icon-right" width="10" height="16">
+                                </li>
+
+                            <li class="contacts-header__item"><a class="contacts-header__tel-header tel-header_color_grey " href="tel:+380961111111">
+                                <svg class="contacts-header__icon-right" width="10" height="16">
                                     <use  href="./img/spraits.svg#smart"></use>
                                  </svg>
                                  +38 096 111 11 11</a>
-                        </li>
+                                </li>
                         </ul>
                  </div>
                       
@@ -60,11 +59,11 @@
     <main>
            <section class="banner">
                 <div class="container">
-                        <h1 class="banner__text">
+                        <h1 class="banner__text color_text_white">
                            Эффективные решения <br> для вашего бизнеса
                         </h1>
                      
-                            <button  class="btn-text-banner" type="button" data-modal-open >Заказать услугу</button>
+                            <button  class="banner__btn " type="button" data-modal-open >Заказать услугу</button>
                             
                         </div>
              </section>
@@ -78,48 +77,48 @@
       <section class="section ">
          <div class="container">
                 <ul class="features">
-                    <li class="description-item">
-                        <div class="icon-features">
+                    <li class="features__item">
+                        <div class="fetures__icon">
                             <svg class="icons-feature" width="70" height="70">
                                 <use href="./img/spraits.svg#antenna"></use>
                              </svg>
                         </div>
-                        <h3 class="text-features">Внимание к деталям</h3>
-                        <p class="description">
+                        <h3 class="features__text feature_title_black">Внимание к деталям</h3>
+                        <p class="features__description color_text_grey">
                            Идейные соображения, а так же начало повседневной работы по формирыванию позициию
                         </p>
                        
                     </li>
-                    <li  class="description-item">
-                        <div class="icon-features">
+                    <li  class="features__item">
+                        <div class="fetures__icon">
                             <svg class="icons-feature" width="70" height="70">
                                 <use href="./img/spraits.svg#clock"></use>
                              </svg>
                         </div>
-                        <h3  class="text-features">Пунктуальность</h3>
-                        <p class="description">
+                        <h3  class="features__text feature_title_black">Пунктуальность</h3>
+                        <p class="features__description color_text_grey">
                             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                         </p>
                     </li>
-                    <li class="description-item" >
-                        <div class="icon-features">
+                    <li class="features__item" >
+                        <div class="fetures__icon">
                             <svg class="icons-feature" width="70" height="70">
                                 <use href="./img/spraits.svg#diagram"></use>
                              </svg>
                         </div>
-                        <h3 class="text-features"> Планирование </h3>
-                        <p class="description">
+                        <h3 class="features__text feature_title_black"> Планирование </h3>
+                        <p class="features__description color_text_grey">
                             Равным образом консультация с широким активом в значительной степени обуславливает.
                         </p>
                     </li>
-                    <li  class="description-item">
-                        <div class="icon-features">
+                    <li  class="features__item">
+                        <div class="fetures__icon">
                             <svg class="icons-feature" width="70" height="70">
                                 <use href="./img/spraits.svg#astronaut"></use>
                              </svg>
                         </div>
-                        <h3 class="text-features">Современные технологии</h3>
-                        <p class="description">
+                        <h3 class="features__text feature_title_black">Современные технологии</h3>
+                        <p class="features__description color_text_grey">
                             Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
                     </li>
@@ -136,14 +135,14 @@
                 <section class=" section section-inner" >
                     <div class="container">
 
-                        <h2 class="technology">Чем мы занимаемся</h2>
+                        <h2 class="technology-title color_text_black">Чем мы занимаемся</h2>
                         
                         <ul class="technology-inner">
-                            <li class="item-technology">
-                                <div class="inner-technology">
+                            <li class="technology-inner__item">
+                                <div class="technology-inner__inner">
                                     
                                     <img class="img-technology" src="./img/image/img_1.jpg" width="370" height="294" alt="application Development" title="Application Development">
-                                     <h2 class="inner-text">
+                                     <h2 class="technology-inner__text background_text color_text_white">
                                         Десктопные приложения
                                     </h2>
                                 </div>
@@ -151,10 +150,10 @@
                                 
                             
                            
-                                <li class="item-technology">
-                                    <div class="inner-technology">
+                                <li class="technology-inner__item">
+                                    <div class="technology-inner__inner">
                                     <img class="img-technology" src="./img/image/img_2.jpg" width="370" height="294" alt="adaptation" title="Adaptation">
-                                    <h2 class="inner-text">
+                                    <h2 class="technology-inner__text background_text  color_text_white">
                                         Мобильные приложения
                                     </h2>
                                
@@ -162,10 +161,10 @@
                         </li>
                            
                             
-                                <li class="item-technology">
-                                    <div class="inner-technology">
+                                <li class="technology-inner__item">
+                                    <div class="technology-inner__inner">
                                     <img class="img-technology" src="./img/image/img_3.jpg" width="370" height="294" alt="adaptation" title="Adaptation">
-                                    <h2 class="inner-text">
+                                    <h2 class="technology-inner__text background_text  color_text_white">
                                         Дизайнерские решения
                                     </h2>
                                 </div>
@@ -183,48 +182,49 @@
                  <section class="inner-content section">
                      <div class="container">
 
-                        <h2 class="our-team">
+                        <h2 class="our-team color_text_black">
                             Наша Команда
                          </h2>
                          
                          <ul class="inner-team ">
                          
-                             <li class="team"><img class="team-card" src="./img/image/works__team/img.jpg" width="270"  height="260" alt="" title="Игорь Демьяненко">
+                             <li class="inner-team__team">
+                                 <img class="inner-team__team-card" src="./img/image/works__team/img.jpg" width="270"  height="260" alt="" title="Игорь Демьяненко">
                                 <div class="item-work">
-                                    <h3 class="name-developer">
+                                    <h3 class="item-work__name-developer color_text_black">
                                         Игорь Демьяненко
                                     </h3>
                                        
-                                     <p class="position">
+                                     <p class="item-work__position color_text_grey">
                                           Product Designer
                                       </p>
                                      <ul class="social-set">
-                                         <li class="item-social">
-                                             <a class="social-link" href="">
-                                                <svg  class="item-socials"  width="20" height="20">
+                                         <li class="social-set__item-social">
+                                             <a class="social-set__social-link" href="">
+                                                <svg  class="social-set__item-socials"  width="20" height="20">
                                                     <use href="./img/spraits.svg#instagram"></use>
                                                  </svg>
                                              </a>
                                          
                                          </li>
-                                         <li  class="item-social">
-                                            <a class="social-link" href="">
-                                                <svg  class="item-socials"  width="20" height="20">
+                                         <li  class="social-set__item-social">
+                                            <a class="social-set__social-link" href="">
+                                                <svg  class="social-set__item-socials"  width="20" height="20">
                                                     <use   href="./img/spraits.svg#twitter"></use>
                                                  </svg>
                                              </a>
                                          </li>
-                                         <li  class="item-social">
-                                            <a class="social-link" href="#">
-                                                <svg   class="item-socials"  width="20" height="20">
+                                         <li  class="social-set__item-social">
+                                            <a class="social-set__social-link" href="#">
+                                                <svg   class="social-set__item-socials"  width="20" height="20">
                                                     <use href="./img/symbol-defs.svg#facebook"></use>
                                                  </svg>
                                              </a>
                                          </li>
 
-                                         <li  class="item-social">
-                                            <a class="social-link" href="#">
-                                                <svg  class="item-socials" width="20" height="20">
+                                         <li  class="social-set__item-social">
+                                            <a class="social-set__social-link" href="#">
+                                                <svg  class="social-set__item-socials" width="20" height="20">
                                                     <use href="./img/spraits.svg#linkedin"></use>
                                                  </svg>
                                              </a>
@@ -234,42 +234,42 @@
                                 
                              </li>
 
-                             <li  class="team">
-                                 <img class="team-card" src="./img/image/works__team/img_1.jpg" width="270" height="260" alt="" title="Ольга Репина">
+                             <li  class="inner-team__team">
+                                 <img class="inner-team__team-card" src="./img/image/works__team/img_1.jpg" width="270" height="260" alt="" title="Ольга Репина">
                                  <div class="item-work">
-                                    <h3 class="name-developer">
+                                    <h3 class="item-work__name-developer color_text_black">
                                         Ольга Репина
                                      </h3>
-                                     <p class="position">
+                                     <p class="item-work__position color_text_grey">
                                          Frontend Developer
                                      </p>
                                      <ul class="social-set">
-                                        <li class="item-social">
-                                            <a class="social-link" href="">
-                                               <svg  class="item-socials"  width="20" height="20">
+                                        <li class="social-set__item-social">
+                                            <a class="social-set__social-link" href="">
+                                               <svg  class="social-set__item-socials"  width="20" height="20">
                                                    <use href="./img/spraits.svg#instagram"></use>
                                                 </svg>
                                             </a>
                                         
                                         </li>
-                                        <li  class="item-social">
-                                           <a class="social-link" href="">
-                                               <svg  class="item-socials"  width="20" height="20">
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="">
+                                               <svg  class="social-set__item-socials"  width="20" height="20">
                                                    <use   href="./img/spraits.svg#twitter"></use>
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li  class="item-social">
-                                           <a class="social-link" href="#">
-                                               <svg   class="item-socials"  width="20" height="20">
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="#">
+                                               <svg   class="social-set__item-socials"  width="20" height="20">
                                                    <use href="./img/symbol-defs.svg#facebook"></use>
                                                 </svg>
                                             </a>
                                         </li>
 
-                                        <li  class="item-social">
-                                           <a class="social-link" href="#">
-                                               <svg  class="item-socials" width="20" height="20">
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="#">
+                                               <svg  class="social-set__item-socials" width="20" height="20">
                                                    <use href="./img/spraits.svg#linkedin"></use>
                                                 </svg>
                                             </a>
@@ -279,43 +279,43 @@
                                  
                              </li>
 
-                             <li  class="team">
-                                 <img class="team-card" src="./img/image/works__team/img_2.jpg" width="270" height="260" alt="Николай Тарасов" title="Николай Тарасов">
+                             <li  class="inner-team__team">
+                                 <img class="inner-team__team-card" src="./img/image/works__team/img_2.jpg" width="270" height="260" alt="Николай Тарасов" title="Николай Тарасов">
                                  <div class="item-work">
-                                    <h3 class="name-developer">
+                                    <h3 class="item-work__name-developer color_text_black">
                                         Николай Тарасов
                                       </h3>
-                                      <p class="position">
+                                      <p class="item-work__position color_text_grey">
                                           Marketing
                                       </p>
                                       <ul class="social-set">
-                                        <li class="item-social">
-                                            <a class="social-link" href="">
-                                               <svg  class="item-socials"  width="20" height="20">
-                                                   <use  class="social-icon" href="./img/spraits.svg#instagram"></use>
+                                        <li class="social-set__item-social">
+                                            <a class="social-set__social-link" href="">
+                                               <svg  class="social-set__item-socials"  width="20" height="20">
+                                                   <use  class="social-set__social-icon" href="./img/spraits.svg#instagram"></use>
                                                 </svg>
                                             </a>
                                         
                                         </li>
-                                        <li  class="item-social">
-                                           <a class="social-link" href="">
-                                               <svg  class="item-socials"  width="20" height="20">
-                                                   <use  class="social-icon"  href="./img/spraits.svg#twitter"></use>
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="">
+                                               <svg  class="social-set__item-socials"  width="20" height="20">
+                                                   <use  class="social-set__social-icon"  href="./img/spraits.svg#twitter"></use>
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li  class="item-social">
-                                           <a class="social-link" href="#">
-                                               <svg   class="item-socials"  width="20" height="20">
-                                                   <use  class="social-icon" href="./img/symbol-defs.svg#facebook"></use>
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="#">
+                                               <svg   class="social-set__item-socials"  width="20" height="20">
+                                                   <use  class="social-set__social-icon" href="./img/symbol-defs.svg#facebook"></use>
                                                 </svg>
                                             </a>
                                         </li>
 
-                                        <li  class="item-social">
-                                           <a class="social-link" href="#">
-                                               <svg  class="item-socials" width="20" height="20">
-                                                   <use  class="social-icon" href="./img/spraits.svg#linkedin"></use>
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="#">
+                                               <svg  class="social-set__item-socials" width="20" height="20">
+                                                   <use  class="social-set__social-icon" href="./img/spraits.svg#linkedin"></use>
                                                 </svg>
                                             </a>
                                         </li>  
@@ -324,43 +324,43 @@
                                  
                              </li>
                              
-                             <li  class="team">
-                                 <img class="team-card" src="./img/image/works__team/img_3.jpg" width="270" height="260"  alt="Николай Ермаков" title="Николай Ермаков">
+                             <li  class="inner-team__team">
+                                 <img class="inner-team__team-card" src="./img/image/works__team/img_3.jpg" width="270" height="260"  alt="Николай Ермаков" title="Николай Ермаков">
                                  <div class="item-work">
-                                    <h3 class="name-developer">
+                                    <h3 class="item-work__name-developer color_text_black">
                                         Николай Ермаков
                                      </h3>
-                                     <p class="position">
+                                     <p class="item-work__position color_text_grey">
                                          UI Designer
                                      </p>
                                      <ul class="social-set">
-                                        <li class="item-social">
-                                            <a class="social-link" href="">
-                                               <svg  class="item-socials"  width="20" height="20">
-                                                   <use  class="social-icon" href="./img/spraits.svg#instagram"></use>
+                                        <li class="social-set__item-social">
+                                            <a class="social-set__social-link" href="">
+                                               <svg  class="social-set__item-socials"  width="20" height="20">
+                                                   <use  class="social-set__social-icon" href="./img/spraits.svg#instagram"></use>
                                                 </svg>
                                             </a>
                                         
                                         </li>
-                                        <li  class="item-social">
-                                           <a class="social-link" href="">
-                                               <svg  class="item-socials"  width="20" height="20">
-                                                   <use   class="social-icon" href="./img/spraits.svg#twitter"></use>
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="">
+                                               <svg  class="social-set__item-socials"  width="20" height="20">
+                                                   <use   class="social-set__social-icon" href="./img/spraits.svg#twitter"></use>
                                                 </svg>
                                             </a>
                                         </li>
-                                        <li  class="item-social">
-                                           <a class="social-link" href="#">
-                                               <svg   class="item-socials"  width="20" height="20">
-                                                   <use  class="social-icon"  href="./img/symbol-defs.svg#facebook"></use>
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="#">
+                                               <svg   class="social-set__item-socials"  width="20" height="20">
+                                                   <use  class="social-set__social-icon"  href="./img/symbol-defs.svg#facebook"></use>
                                                 </svg>
                                             </a>
                                         </li>
 
-                                        <li  class="item-social">
-                                           <a class="social-link" href="#">
-                                               <svg  class="item-socials" width="20" height="20">
-                                                   <use  class="social-icon" href="./img/spraits.svg#linkedin"></use>
+                                        <li  class="social-set__item-social">
+                                           <a class="social-set__social-link" href="#">
+                                               <svg  class="social-set__item-socials" width="20" height="20">
+                                                   <use  class="social-set__social-icon" href="./img/spraits.svg#linkedin"></use>
                                                 </svg>
                                             </a>
                                         </li>  
@@ -377,7 +377,7 @@
 
                  <section class="section">
                      <div class="container">
-                         <h2 class="our-team">Постоянные клиенты</h2>
+                         <h2 class="claints-title">Постоянные клиенты</h2>
                          <ul class="clients">
                              <li class="item-clients">
                                 

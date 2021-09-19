@@ -1,7 +1,10 @@
+
+@import'./base/reset';
+
 @import'./utils/variables';
 @import'./utils/hidden';
 @import'./utils/mixsins';
-@import'./base/reset';
+
 
 @import'./layout/header';
 @import './layout/banner';
@@ -26,6 +29,7 @@
 @import'./components/mail-footer';
 @import'./components/tel-footer';
 @import'./components/footer-social';
+@import './components/color-text-content';
 
 @import'./text-content/banner-text';
 @import'./text-content/modal-text';
@@ -33,15 +37,22 @@
 @import'./text-content/fetures-title-text';
 @import './text-content/discription-features-text';
 @import'./text-content/our-team-title';
+
 @import'./text-content/name-developer';
 @import'./text-content/position';
 @import'./text-content/footer-link';
+@import'./text-content/claints-title';
 @import'./text-content/title-socials-footer';
 @import'./text-content/link-condition-modal';
 @import'./text-content/title-mail-footer';
+@import './text-content/technology-title';
+
 
 @import'./modal/modal-win';
 @import'./modal/icons-modal-form-pos';
+
+
+
 
 
 

@@ -1,11 +1,5 @@
 .banner__text{
     
-    font-size: 44px;
-    font-weight: 900;
-    line-height:1.36;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: var(--white);
+@include banner-text(44px,900,1.36,center,uppercase);
 
 }

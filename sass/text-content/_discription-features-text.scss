@@ -1,11 +1,6 @@
-.description{
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
+.features__description{
 
-    letter-spacing: 0.03em;
+@include section-disription-text(normal,14px,1.7,0.03em);
 
-    color: var(--grey);
-
-    margin-top: 10px;
+  margin-top: 10px;
 }

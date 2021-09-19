@@ -1,14 +1,6 @@
-.position{
+.item-work__position{
     
-    font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 1.3;
-      text-align: center;
-      letter-spacing: 0.03em;
+@include position(16px,normal,normal,16px,1.3,center,00.03em);
   
-       color: var(--grey);
-  
-       margin-bottom: 16px;
-  }
+}
   
