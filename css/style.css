@@ -1354,7 +1354,7 @@ color: rgba(255, 255, 255, 0.6);
 /* Page-2 /Portfolio.html */
 
 
-.site_nav__text-portfolio-page-second{
+.site-nav__text-portfolio-page-second{
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -1371,7 +1371,7 @@ color: rgba(255, 255, 255, 0.6);
     position: relative;
 }
 
-.site_nav__text-portfolio-page-second::after{
+.site-nav__text-portfolio-page-second::after{
     content: '';
     position:absolute;
     display: block;
@@ -1385,7 +1385,7 @@ color: rgba(255, 255, 255, 0.6);
 
 
 
-.site_nav____text-studio-page-second{
+.site-nav__text-studio-page-second{
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -1399,11 +1399,13 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--black);
   
     text-decoration: none;
+
+    transition: color 250ms linear;
 }
 
 
-.text-studio-page-second:hover,
-.text-studio-page-second:focus
+.site-nav__text-studio-page-second:hover,
+.site-nav__text-studio-page-second:focus
 {
     color: var(--blue);
 }
