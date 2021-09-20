@@ -1,11 +1,4 @@
-.modal-text{
-   
-    font-size: 20px;
-    line-height: calc(23 / 20);
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    
-    margin-bottom: 12px;
-    
-   }
+.window-form__modal-text{
+   @include title-modal(20px,calc(23/20),center,00.03em,12px);
+
+ }

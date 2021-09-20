@@ -122,7 +122,25 @@ letter-spacing: $ls;
     text-align: $t-align;
     letter-spacing: $ls;
 
-    
+}
 
-  
+
+@mixin title-modal($fz,$lh,$t-align,$ls,$m-bottom) {
+    
+    font-size: $fz;
+    line-height: $lh;
+    text-align: $t-align;
+    letter-spacing: $ls;
+    margin-bottom: $m-bottom;
+    
+}
+
+
+
+@mixin pre-form-text($fw,$fz,$lh,$ls,$m-top) {
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    letter-spacing: $ls;
+    margin-top: $m-top;
 }
