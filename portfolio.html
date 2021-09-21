@@ -13,7 +13,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
   />
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/main.min.css"> 
         <title>Portfolio</title>
     </head>
@@ -40,20 +40,24 @@
                     </ul>
                    
                 </nav>
-                       <ul class="contacts-header ">
-                            <li class="item"><a class="mail-header" href="mailto:info@devstudio">
-                            <svg class="icon-right" width="16" height="12">
-                                    <use href="./img/spraits.svg#icon-mail"></use>
-                                 </svg>
-                                 info@devstudio.com</a>
-                            </li>
-                            <li class="item"><a class="tel-header" href="tel:+380961111111">
-                                <svg  class="icon-right" width="10" height="16">
-                                    <use href="./img/spraits.svg#smart"></use>
-                                 </svg>
-                                
-                                +38 096 111 11 11</a></li>
-                        </ul>
+                       
+                        <ul class="contacts-header">
+                            <li class="contacts-header__item">
+                                  
+                                     <a class="contacts-header__mail-header mail-header_color_grey" href="mailto:info@devstudio">
+                                         <svg class="contacts-header__icon-right" width="16" height="12">
+                                             <use  href="./img/spraits.svg#icon-mail"></use>
+                                          </svg>
+                                         info@devstudio.com</a>
+                                     </li>
+     
+                                 <li class="contacts-header__item"><a class="contacts-header__tel-header tel-header_color_grey " href="tel:+380961111111">
+                                     <svg class="contacts-header__icon-right" width="10" height="16">
+                                         <use  href="./img/spraits.svg#smart"></use>
+                                      </svg>
+                                      +38 096 111 11 11</a>
+                                     </li>
+                             </ul>
                  </div>
                       
             </header><!-- /Header -->
@@ -271,74 +275,80 @@
           
 <!-- /Presentation -->
            
-                <!-- footer -->
-                <footer class="footer section-footer">
-                    <div class="container">
-                        <div class="main-footer">
-                            <div class="inner-address">
-                                <a  class="web-studio-footer" href="https://www.coherence.digital/"><span class="web">Web</span>Studio</a>
-                      
-                                <address class="address">
-                                   <a class="map-address" href="https://goo.gl/maps/U2Tdcyb7d477dYDr9"> г. Киев, пр-т Леси Украинки, 26</a>
-                                      
-                                  <a class="mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                                 
-                                  <a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
-                               </address>
-                               
-
-                            </div>
-                            <div class="inner-icons">
-                                <h3 class="title-icons">
-                                    ПРИСОЕДИНЯЙТЕСЬ
-                                </h3>
-                                <ul class="inner-footer-social" >
-                                     <li class="item-footer-social"><a class="footer-social" href="">
-                                        <svg class="icon-social"  width="20" height="20">
-                                            <use href="./img/spraits.svg#instagram"></use>
-                                        </svg>
-                                        </a>
-                                    </li>
-                                
-                            <li class="item-footer-social"><a class="footer-social" href="">
-                                            <svg  class="icon-social"   width="20" height="20">
-                                                <use href="./img/spraits.svg#twitter"></use>
-                                            </svg>
-                                            </a>   
-                                        </li>
-                                
-                            <li class="item-footer-social"><a class="footer-social" href="">
-                                        <svg class="icon-social"  width="20" height="20">
-                                            <use href="./img/symbol-defs.svg#facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            
-                            <li class="item-footer-social"><a class="footer-social" href="">
-                                <svg class="icon-social"  width="20" height="20">
-                                    <use href="./img/spraits.svg#linkedin"></use>
-                                </svg>
-                              </a>
-                             </li>
-                        </ul>
-                    </div>
-                    <form>
-                        <label  class="title-mail-footer" for="mail-footer">Подпишитесь на рассылку  </label>
-                            <input type="text" name="mail" id="mail-footer" class="form-footer placeholder-footer" placeholder="E-mail">
-                       
-                           
-                            <button type="submit" class="subscribe">Подписаться
-                                <svg  class="icon-footer" width="24" height="24">
-                                    <use href="./img/spraits.svg#icon-send"></use>
-                                </svg>
-                            </button>
-                    </form>
-                 </div>
-                       
-
-            </div>
+            <!--/footer -->
+        </footer> 
+        <footer class="footer section-footer">
+            <div class="container main-footer">
+             
+        
+                <div class="inner-address">
+                    <address class="address">
+                        <a  class="address__web-studio-footer color_text_white" href="https://www.coherence.digital/"><span class="address__web color_blue ">Web</span>Studio</a>
+                        <a class="address__map-address color_text_white" href="https://goo.gl/maps/U2Tdcyb7d477dYDr9"> г. Киев, пр-т Леси Украинки, 26</a>
+                            <a class="address__mail-footer color_text_grey" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         
-                     
+                        <a class="address__tel-footer color_text_grey" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </address>
+        
+                    </div>
+                
+        
+                    <div class="inner-icons">
+                        <h3 class="inner-icons__title-icons color_text_white">
+                            ПРИСОЕДИНЯЙТЕСЬ
+                        </h3>
+                        <ul class="inner-social" >
+                             <li class="inner-social__item"><a class="footer-social" href="">
+                                <svg class="icon-social"  width="20" height="20">
+                                    <use href="./img/spraits.svg#instagram"></use>
+                                </svg>
+                                </a>
+                            </li>
+                        
+                    <li class="inner-social__item">
+                        <a class="footer-social" href="">
+                                    <svg  class="icon-social"   width="20" height="20">
+                                        <use href="./img/spraits.svg#twitter"></use>
+                                    </svg>
+                                    </a>   
+                                </li>
+                        
+                    <li class="inner-social__item"><a class="footer-social"  href="">
+                                <svg class="icon-social"  width="20" height="20">
+                                    <use href="./img/symbol-defs.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                     <li class="inner-social__item"><a class="footer-social" href="">
+                        <svg class="icon-social"  width="20" height="20">
+                            <use href="./img/spraits.svg#linkedin"></use>
+                        </svg>
+                         </a>
+                      </li>
+                   </ul>
+                </div>
+        
+                <form action="#" class="footer-form">
+                    <label class="footer-form__title-mail-footer color_text_white" for="mail">Подпишитесь на рассылку</label>
+                        <input type="text" name="mail" id="mail" class="footer-form__form-mail placeholder-footer" placeholder="E-mail">
+                  
+                       
+                        <button type="submit" class="subscribe">Подписаться
+                            <svg  class="icon-footer" width="24" height="24">
+                                <use href="./img/spraits.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                </form>
+                   
+                        
+                </div>
+             
+             
+        
+                
+        
+                    
         </footer> <!-- /footer -->
     </body>
 </html>
