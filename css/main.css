@@ -878,6 +878,7 @@ img {
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .window-form__modal-text {
